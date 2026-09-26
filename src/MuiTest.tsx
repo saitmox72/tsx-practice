@@ -66,7 +66,7 @@ const MuiTest = () => {
             <Button variant="text">詳細を見る</Button>
         </Grid>
       </Grid>
-      <Typography variant="h1">大見出し</Typography>
+      <Typography variant="h1">大見出し更新</Typography>
       <Typography variant="h2">中見出し</Typography>
       <Typography variant="body1">通常の本文テキストです。</Typography>
       <Typography variant="caption">補足的な小さい文字</Typography>     
