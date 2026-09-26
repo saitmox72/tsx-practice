@@ -14,6 +14,27 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import IconButton from '@mui/material/IconButton';
+
+/***********************************************/
+/* ヘッダー */
+/***********************************************/
+
+function Header() {
+  return (
+    <AppBar position="static">
+      <Toolbar>
+        <IconButton edge="start" color="inherit" aria-label="menu">
+        </IconButton>
+        <Typography variant="h6" sx={{ flexGrow: 1 }}>
+          ToDoアプリ
+        </Typography>
+      </Toolbar>
+    </AppBar>
+  );
+}
 
 /***********************************************/
 /* メイン */
@@ -35,6 +56,7 @@ const MuiTest = () => {
   }
     return (
     <>
+      <Header />
       <Grid container spacing={2}>
         <Grid size={6}>
             <Button variant="contained" onClick={() => {console.log("送信")}}>送信</Button>
