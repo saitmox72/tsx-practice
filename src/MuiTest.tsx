@@ -29,7 +29,7 @@ function Header() {
         <IconButton edge="start" color="inherit" aria-label="menu">
         </IconButton>
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          ToDoアプリ変更
+          ToDoアプリ変更２
         </Typography>
       </Toolbar>
     </AppBar>
